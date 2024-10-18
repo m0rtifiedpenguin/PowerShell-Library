@@ -1,0 +1,9 @@
+>> List of Content Cmdlets along with brief explanations and examples.
+
+Add-Content
+>> Appends content to a file.
+Add-content "C:\PSTest\test.txt" -Value "Test text." 
+
+Clear-content
+>> Deletes content from a file.
+Clear-content "C:\PSTest\test.txt"
