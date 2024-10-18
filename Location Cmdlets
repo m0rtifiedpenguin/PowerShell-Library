@@ -1,0 +1,10 @@
+>> List of Location Cmdlets and brief explinations
+
+Get-Location
+>> Alias = GL. This cmdlet gets an object that represents the current directory. Sets the working location to a specified location
+
+Set-Location
+>> Alias = SL. Sets the working location to a specified location. That location could be a directory, a subdirectory, a registry location, or any provider path.
+Set-Location c:\
+Set-Location –Path Env:
+Set-Location -Path HKCU:
