@@ -10,3 +10,7 @@ New-Item -Path C:\ -Name “PSTest” -Itemtype “directory”
 New-Item -Path C:\PSTest -Name “test1.txt” -Itemtype “file” -Value “Test text.”
 New-Item -ItemType "file" -Path "C:\PSTest\child1", "C:\PSTEST\child2"
 New-Item -Path "HKLM:\Software\TestSoftware"
+
+Remove-Item
+>> Deletes an item.
+Remove-Item -Path "HKLM:\Software\TestSoftware"
