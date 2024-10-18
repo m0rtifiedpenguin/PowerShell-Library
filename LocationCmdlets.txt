@@ -1,4 +1,4 @@
->> List of Location Cmdlets and brief explanations
+>> List of Location Cmdlets along with brief explanations and examples.
 
 Get-Location
 >> Alias = GL. This cmdlet gets an object that represents the current directory. Sets the working location to a specified location
