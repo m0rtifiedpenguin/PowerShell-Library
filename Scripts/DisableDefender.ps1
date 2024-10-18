@@ -1,4 +1,4 @@
-# Disables Windows Defender
+# Checks status of Windows Defender and AV exclusions, disables various aspects of Windows Defender, and sets a new exclusion path
 
 # Checks the status of antimalware software
 Get-MpComputerStatus
