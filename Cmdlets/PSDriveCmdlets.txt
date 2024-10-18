@@ -1,0 +1,11 @@
+>> List of PSDrive Cmdlets along with brief explanations and examples.
+
+ Get-PSDrive
+>> This command gets the drive in the current session.
+
+New-PSDrive
+>> Creates a PowerShell drive that's mapped to a location in a data store, such as a network drive, a directory on the local computer, or a registry key. 
+ New-PSDrive -Name 'Z' -PSProvider FileSystem -Root '\\127.0.0.1\C$\Recycler -persist
+
+Remove-PSDrive
+>> This cmdlet deletes our PowerShell drives that were created by using the NewPSDrive cmdlet.
