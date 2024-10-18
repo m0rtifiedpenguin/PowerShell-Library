@@ -4,7 +4,6 @@ New-ItemProperty
 >> Creates a new property for a specified item and sets its value. Typically, this cmdlet is used to create new registry values.
 New-Itemproperty -Path "HKLM:\Software\TestSoftware" -name NewProperty -value NewPropertyValue
 
-
 Get-itemProperty
 >> Gets the property of an item like viewing registry properties and theirvalues. You can use this cmdlet to get information about directories, files or registry entries.
  Get-itemproperty hklm:\software\TestSoftware
