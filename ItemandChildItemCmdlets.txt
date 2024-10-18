@@ -1,0 +1,11 @@
+>> List of Item and ChildItem Cmdlets along with brief explanations and examples.
+
+Get-childItem
+>> Gets the items in one or more specified locations
+get-childitem -path ‘C:\’ -include "*docx" -Recurse -file
+
+New-Item
+>> Creates a new item and sets its value. This can be a folder, file or multiple files inside a directory. Use get-help New-item to view all the parameters.
+New-Item -Path C:\ -Name “PSTest” -Itemtype “directory”
+New-Item -Path C:\PSTest -Name “test1.txt” -Itemtype “file” -Value “Test text.”
+New-Item -ItemType "file" -Path "C:\PSTest\child1", "C:\PSTEST\child2"
