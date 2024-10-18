@@ -1,0 +1,13 @@
+>> List of Path Cmdlets along with brief explanations and examples.
+
+Test-Path
+>> Determines whether all elements of the path exist. This cmdlet is handy if you are writing a script and you want to test whether the path to a file is true or false.
+Test-Path 'C:\windows\debug\PASSWD.LOG'
+
+Resolve-Path
+>> Displays the items and containers that match the wildcard pattern at the location specified.
+Resolve-path "C:\windows\*"
+
+Split-path
+>> Returns a string that describes the location of the items and returns the specified part of a path. Let's say you want to list all the log files in this C:\Windows folder. You can use the split-path cmdlet.
+Split-Path -Path "C:\windows\*.Log" -Leaf -resolve
